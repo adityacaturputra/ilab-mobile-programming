@@ -47,18 +47,18 @@ public class SubmainPemesananActivity extends AppCompatActivity implements
     }
     @Override
     public void onClick(View view){
-//        Intent intent = new Intent(SubmainPemesananActivity.this,
-//                SubmainHasilPemesananActivity.class);
-//        intent.putExtra("nama", namaPemesan.getText().toString());
-//        intent.putExtra("ayamGoreng", totalAyamGoreng.getText().toString());
-//
-//        intent.putExtra("sambalMerah",sambalMerah.isChecked());
-//        intent.putExtra("sambalIjo",sambalIjo.isChecked());
-//        intent.putExtra("alamat",alamatPemesan.getText().toString());
-//        intent.putExtra("chickenWings", totalChickenWings.getText().toString());
-//        intent.putExtra("lalapan",lalapan.isChecked());
-//        intent.putExtra("nasi",nasi.isChecked());
-//        startActivity(intent);
+        Intent intent = new Intent(SubmainPemesananActivity.this,
+                SubmainHasilPesananActivity.class);
+        intent.putExtra("nama", namaPemesan.getText().toString());
+        intent.putExtra("ayamGoreng", totalAyamGoreng.getText().toString());
+
+        intent.putExtra("sambalMerah",sambalMerah.isChecked());
+        intent.putExtra("sambalIjo",sambalIjo.isChecked());
+        intent.putExtra("alamat",alamatPemesan.getText().toString());
+        intent.putExtra("chickenWings", totalChickenWings.getText().toString());
+        intent.putExtra("lalapan",lalapan.isChecked());
+        intent.putExtra("nasi",nasi.isChecked());
+        startActivity(intent);
     }
     public void incrementAyamGoreng(View view){
         ayamGoreng = ayamGoreng + 1 ;

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Letseatapps">
         <activity
+            android:name=".SubmainHasilPesananActivity"
+            android:exported="false" />
+        <activity
             android:name=".SubmainPemesananActivity"
             android:exported="false" />
         <activity
