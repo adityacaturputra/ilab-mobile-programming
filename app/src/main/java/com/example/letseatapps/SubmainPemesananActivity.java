@@ -78,7 +78,7 @@ public class SubmainPemesananActivity extends AppCompatActivity implements
         displayHargaAyamGoreng(hargaAyamGoreng);
     }
     private void displayAyamGoreng(int number){
-        TextView txtAyamGoreng = (TextView)findViewById(R.id.txt_jumlah_ayam);
+        TextView txtAyamGoreng = (TextView)findViewById(R.id.txt_jumlah_ayam_goreng);
         txtAyamGoreng.setText(""+number);
     }
     private void displayHargaAyamGoreng(int number){
